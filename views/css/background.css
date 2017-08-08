@@ -1,3 +1,128 @@
 body {
-  background-color: grey;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-style: Arial, Verdana;
+  background-color: #BD10E0;
+}
+
+.wrap .content .display-temperature {
+  font-size: 30px;
+  background:url(img/display.png);
+  width: 186px;
+  min-height: 186px;
+  margin-left: 28%;
+  margin-top: 30%;
+}
+
+.wrap .content .display-temperature h1 {
+  font-size: 80px;
+  float: left;
+  margin: 50px 0px 50px 50px;
+}
+
+
+
+.wrap {
+  width: 100%;
+}
+
+.wrap .wrap-logo{
+    background:url(img/robot.png);
+    width: 407px;
+    min-height: 562px;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    z-index: 99;
+
+}
+
+.wrap .content {
+  width: 407px;
+  min-height: 562px;
+  /*border: solid 2px #FFFFFF;*/
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  z-index: 99;
+}
+
+.wrap .content .temp-up {
+  background:url(img/buttonup.png);
+  cursor:pointer;
+  border:none;
+  width:62px;
+  height:62px;
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.wrap .content .temp-up:active {
+     background:url(img/buttonupon.png) no-repeat;
+}
+
+.wrap .content .temp-down {
+  background:url(img/buttondown.png);
+  cursor:pointer;
+  border:none;
+  width:62px;
+  height:62px;
+  margin-top: 80px;
+  margin-left: 180px;
+  margin-bottom: 10px;
+
+}
+
+.wrap .content .temp-down:active {
+     background:url(img/buttondownon.png) no-repeat;
+}
+
+.wrap .content .reset {
+  background:url(img/reset.png);
+  cursor:pointer;
+  border:none;
+  width:101px;
+  height:101px;
+  margin-top: 28px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+
+}
+
+.wrap .content .reset:active {
+     background:url(img/reseton.png) no-repeat;
+}
+
+.wrap .content .psm-on {
+  background:url(img/PSMon.png);
+  cursor:pointer;
+  border:none;
+  width:53px;
+  height:53px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+
+}
+
+.wrap .content .psm-on:active {
+     background:url(img/PSMonon.png) no-repeat;
+}
+
+.wrap .content .psm-off {
+  background:url(img/PSMoff.png);
+  cursor:pointer;
+  border:none;
+  width:53px;
+  height:53px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+
+}
+
+.wrap .content .psm-off:active {
+     background:url(img/PSMoffOFF.png) no-repeat;
 }
